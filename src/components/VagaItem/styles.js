@@ -16,8 +16,9 @@ export const Container = styled.div`
   }
 `;
 export const Nome = styled.div`
-  max-width: 300px;
-  min-width:300px;
+  width: 300px;
+  max-width: 200px;
+  min-width:285px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -25,8 +26,9 @@ export const Nome = styled.div`
   color:black;
 `;
 export const Salario = styled.div`
-  max-width: 200px;
-  min-width: 200px;
+  width: 200px;
+  max-width: 100px;
+  min-width: 190px;
   height: 40px;
   border-left: 1px solid black;
   display: flex;
@@ -35,8 +37,9 @@ export const Salario = styled.div`
   color:black;
 `;
 export const Local = styled.div`
-  max-width: 200px;
-  min-width: 200px;
+  width: 200px;
+  max-width: 100px;
+  min-width: 190px;
   height: 40px;
   border-left: 1px solid black;
   display: flex;
@@ -45,8 +48,8 @@ export const Local = styled.div`
   color:black;
 `;
 export const Descricao = styled.div`
-  min-width: 700px;
-  max-width: 1350px;
+  min-width: 450px;
+  max-width: 1150px;
   height: 40px;
   border-left: 1px solid black;
   display: flex;

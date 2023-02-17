@@ -5,13 +5,13 @@ const isDev = require ('electron-is-dev');
 function createWindow () {
   const win = new BrowserWindow({
     width: 1200,
-    height: 800,
+    height: 900,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
 
-  win.loadURL(isDev ? "http://localhost:3000/" : `fiel://${path.join(__dirname), "../build/index.html"}`)
+  win.loadURL(isDev ? "http://localhost:3000/" : (`file://${path.join(__dirname, "../build/index.html")}`))
 }
 
 app.whenReady().then(() => {
